@@ -11,14 +11,11 @@ This script will archive and compress logs from /var/log.
     git clone https://github.com/lin001234/Log-archive-tool.git
     cd Log-archive-tool
     ```
-
 3. **Usage**
 
-    
     ```
-     ./log_archive.sh /path/to/directory
+    ./log_archive.sh /path/to/directory
     ```
-
 
 
 
