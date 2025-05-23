@@ -1,6 +1,6 @@
-# Log-archive-tool\
+# Log-archive-tool
 This script will archive and compress logs from /var/log.
-## Getting started<br\>
+## Getting started
 1. **Prerequisties**
     - **Bash**
     - **sudo** access
