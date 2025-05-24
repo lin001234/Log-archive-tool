@@ -6,14 +6,14 @@ echo "and move it to the archive directory"
 
 file=$1
 folder="archive"
-number= 100000
+number=1000648
 
 archive_file(){
     echo "Archiving file"
-    date = $(date +%Y-%m-%d)
+    date=$(date +%Y-%m-%d)
 
     # Create directory if it doesn't exist
-    while [ ! -d "${folder}"]; do
+    while [ ! -d "${folder}" ]; do
         echo "Creating archive directory"
         mkdir "${folder}"
     done
